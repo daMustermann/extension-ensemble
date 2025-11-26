@@ -3,19 +3,19 @@ import {
     getContext,
     loadExtensionSettings,
     saveExtensionSettings,
-} from "/scripts/extensions.js";
+} from "../../extensions.js";
 import {
     eventSource,
     event_types,
     saveSettingsDebounced,
-} from "/scripts/script.js";
+} from "../../../script.js";
 import {
     getSlashCommands,
     registerSlashCommand,
-} from "/scripts/slash-commands.js";
+} from "../../slash-commands.js";
 import {
     power_user,
-} from "/scripts/power-user.js";
+} from "../../power-user.js";
 
 const extensionName = "ensemble";
 const defaultSettings = {
