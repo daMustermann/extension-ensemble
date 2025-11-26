@@ -1,5 +1,21 @@
-// Imports removed to avoid path issues. Using globals.
-const { getContext } = SillyTavern;
+import {
+    extension_settings,
+    getContext,
+    loadExtensionSettings,
+    saveExtensionSettings,
+} from "/scripts/extensions.js";
+import {
+    eventSource,
+    event_types,
+    saveSettingsDebounced,
+} from "/scripts/script.js";
+import {
+    getSlashCommands,
+    registerSlashCommand,
+} from "/scripts/slash-commands.js";
+import {
+    power_user,
+} from "/scripts/power-user.js";
 
 const extensionName = "ensemble";
 const defaultSettings = {
