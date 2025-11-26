@@ -1,0 +1,13 @@
+{
+    "name": "Ensemble - Dynamic Group Director",
+    "version": "1.0.0",
+    "author": "Antigravity",
+    "description": "Adds an AI Director to group chats that dynamically determines the next speaker based on conversation flow.",
+    "permissions": [
+        "generation_ended",
+        "chat_changed"
+    ],
+    "js": "index.js",
+    "css": "style.css",
+    "settings": "settings.html"
+}

@@ -1,0 +1,34 @@
+/* Settings Panel Styles */
+#ensemble_settings {
+    padding: 10px;
+}
+
+.ensemble-setting-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ensemble-setting-label {
+    font-weight: bold;
+}
+
+/* Director Mode Active Indicator */
+.ensemble-director-active {
+    animation: ensemble-pulse 2s infinite;
+    border: 2px solid var(--smart-theme-color, #007bff);
+    box-shadow: 0 0 10px var(--smart-theme-color, #007bff);
+}
+
+@keyframes ensemble-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(0, 123, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+    }
+}

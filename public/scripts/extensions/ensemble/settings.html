@@ -1,0 +1,30 @@
+<div id="ensemble_settings">
+    <div class="ensemble-setting-row">
+        <label class="ensemble-setting-label" for="ensemble_enabled">Enable Director Mode</label>
+        <input type="checkbox" id="ensemble_enabled" />
+    </div>
+
+    <div class="ensemble-setting-row">
+        <label class="ensemble-setting-label" for="ensemble_threshold">Initiative Threshold (1-100)</label>
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <input type="range" id="ensemble_threshold" min="1" max="100" value="50" />
+            <span id="ensemble_threshold_value">50</span>
+        </div>
+    </div>
+    <small>Higher value = Characters speak less often (need more reason).</small>
+
+    <hr class="sysHR" />
+
+    <div class="ensemble-setting-row">
+        <label class="ensemble-setting-label" for="ensemble_talkativeness">Talkativeness Bias (0.5x - 2.0x)</label>
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <input type="range" id="ensemble_talkativeness" min="0.5" max="2.0" step="0.1" value="1.0" />
+            <span id="ensemble_talkativeness_value">1.0x</span>
+        </div>
+    </div>
+
+    <div class="ensemble-setting-row">
+        <label class="ensemble-setting-label" for="ensemble_max_turns">Max Auto-Turns</label>
+        <input type="number" id="ensemble_max_turns" min="1" max="20" value="5" />
+    </div>
+</div>
