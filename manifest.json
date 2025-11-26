@@ -1,7 +1,8 @@
 {
-    "name": "Ensemble - Dynamic Group Director",
+    "display_name": "Ensemble - Dynamic Group Director",
+    "name": "ensemble",
     "version": "1.0.0",
-    "author": "Antigravity",
+    "author": "daMustermann",
     "description": "Adds an AI Director to group chats that dynamically determines the next speaker based on conversation flow.",
     "permissions": [
         "generation_ended",
